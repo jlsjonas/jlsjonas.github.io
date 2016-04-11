@@ -1,0 +1,6 @@
+{
+  "name": "Jlsjonas.GitHub.io",
+  "tagline": "For discussing personal projects",
+  "body": "# Welcome to my GitHub Page.\r\nContent will be added someday\r\n\r\n***\r\n\r\n# Snippets\r\n\r\n## [Waze](/waze) (page coming soon)\r\n\r\n### Bookmarklets (drag these in your bookmarks bar)\r\n\r\nSubmit an entry to the MapUpdate Notifier\r\n```javascript\r\n(function(){\r\n    var i = document.createElement('iframe');\r\n    i.style.display = 'none';\r\n    i.onload = function() { i.parentNode.removeChild(i); };\r\n    i.src = 'https://docs.google.com/forms/d/1EL-n0DU7Ibhyeu4XOQU8PknIuR78ELQsxIyVBYBAbX0/formResponse?entry.1720125867='+prompt(\"email?\")+'&entry.1805207797=World&entry.828562343='+prompt(\"Mnemonic?\");\r\n    document.body.appendChild(i);\r\n})();\r\n```\r\n[MapUpdate](javascript:!function(){var%20e=document.createElement(\"iframe\");e.style.display=\"none\",e.onload=function(){e.parentNode.removeChild(e)},e.src=\"https://docs.google.com/forms/d/1EL-n0DU7Ibhyeu4XOQU8PknIuR78ELQsxIyVBYBAbX0/formResponse?entry.1720125867=\"+prompt(\"email?\")+\"&entry.1805207797=World&entry.828562343=\"+prompt(\"Mnemonic?\"),document.body.appendChild(e)}();)",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
