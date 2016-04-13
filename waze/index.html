@@ -35,7 +35,7 @@
   document.getElementById("generateMUURL").onclick = function() {
     var mub = document.getElementById("mubookmarklet");
     //mub.href='javascript:!function(){var e=document.createElement("iframe");e.style.display="none",e.onload=function(){e.parentNode.removeChild(e)},e.src="https://docs.google.com/forms/d/1EL-n0DU7Ibhyeu4XOQU8PknIuR78ELQsxIyVBYBAbX0/formResponse?entry.1720125867="'+prompt("email?")+'"&entry.1805207797=World&entry.828562343="+prompt("Mnemonic?"),document.body.appendChild(e)}();'; 
-    mub.href='javascript:!function()%7Bvar%20e=document.createElement(%22iframe%22);e.style.display=%22none%22,e.onload=function()%7Be.parentNode.removeChild(e)%7D,e.src=%22https://docs.google.com/forms/d/1EL-n0DU7Ibhyeu4XOQU8PknIuR78ELQsxIyVBYBAbX0/formResponse?entry.1720125867=%22'+prompt("email?")+'%22&entry.1805207797=World&entry.828562343=%22+prompt(%22Mnemonic?%22),document.body.appendChild(e)%7D();'
+    mub.href='javascript:!function(){var%20e=document.createElement("iframe");e.style.display="none",e.onload=function(){e.parentNode.removeChild(e)},e.src="https://docs.google.com/forms/d/1EL-n0DU7Ibhyeu4XOQU8PknIuR78ELQsxIyVBYBAbX0/formResponse?entry.1720125867="'+prompt("email?")+'"&entry.1805207797=World&entry.828562343="+prompt("Mnemonic?"),document.body.appendChild(e)}();';
     mub.innerHTML = "Waze MapUpdate";
     return false;
   };
